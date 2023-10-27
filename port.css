@@ -1,0 +1,385 @@
+body{
+    background-image: url(./images/quinton-coetzee-xcweYgakbRo-unsplash.jpg);
+    width: 100%;
+    height: 500px;
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.container
+{
+   
+    width: 100%;
+    height: 50px;
+    /* 1vh=1% */
+    background-color:transparent;
+    top: 0;
+    z-index: 40;
+    position: fixed;
+    
+
+    
+    
+   
+}
+nav{
+
+    display: flex;
+    width: 85%;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: space-between;
+   
+   
+}
+
+nav .logo{
+    width: 200px;
+    height: 200px;
+    font-weight: bold;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+    font-size: 17px;
+} 
+#b
+{
+    color: red;
+}
+#b:hover{
+    color: white;
+    
+}
+
+
+.title{
+    margin-left: 60%;
+    margin-top: 20%;
+}
+
+.title h1{
+    font-size: 50px;
+    color:white;
+    margin-bottom: 25px;
+
+}
+
+.title span{
+    color: red;
+}
+.title p {
+color: #555;
+line-height: 25px;
+}
+
+.title a{
+    background-color:white;
+    padding: 10px 18px ;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+#about{
+    margin-left: 8%;
+    margin-top: 20%;
+    margin-right: 8%;
+}
+.head{
+    text-align: center;
+
+}
+.head h2{
+    font-size: 35px;
+
+    color: white;
+
+}
+.head span{
+    font-size: 22px;
+    color:#555;}
+.head .about-span{
+    color: red;
+    font-size: 35px;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.about-text{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    color: white;
+    
+}
+.information{
+    margin: 1rem 0 1.4rem;
+}
+.information .info-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.information .info-box span{
+    font-weight: 400;
+    margin-left: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.info-box i{
+    color: red;
+}
+.my{
+    width: 150px;
+    height: 160px;
+    border: 5px solid;
+    border-color: red;
+    margin-top: 50px;
+}
+.my-div{
+    width: 150px;
+    height: 160px;
+    border: 5px solid;
+     border-color: white;
+    
+    background-color: white;
+    margin-top: -20px;
+    margin-left: 10px;
+
+}
+
+
+#skills{
+    margin-left: 8%;
+    margin-top: 20%;
+    margin-right: 8%;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+}
+.skill-img img{
+    width: 50%;
+    object-position: center;
+    padding: 3rem;
+    margin-left: 150px;
+    width: 300px;
+
+}
+.bar-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 16px;
+}
+.bar-box h2{
+    font-size: 25px;
+    font-weight: 800;
+    color:white;
+}
+.bar-box span{
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    
+}
+.light-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: white;
+    border-radius: 8px;
+}
+.percent-bar{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: red;
+    border-radius: 8px;
+}
+.html-bar{
+    width: 90%;
+}
+.css-bar{
+    width: 80%;
+}
+.js-bar{
+    width: 40%;
+}
+.angular-bar{
+    width: 20%;
+}
+.head .head-sp{
+    color: red;
+}
+
+
+#contact{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 20%;
+    
+}
+.icondiv
+{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 0 10px;
+}
+.icon i{
+    font-size: 20px;
+    color: red;
+}
+.icon i:hover{
+    color: white;
+}
+.icon:hover{
+    background-color: red;
+   
+
+}
+footer{
+    margin-top: 2rem;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 200px;
+}
+footer span{
+    color: red;
+}
+.head .m{
+    color: red;
+}
+.non{
+    height: 200px;
+    width: 100%;
+}
+
+
+.sp{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: 30PX;
+    margin-left: -460PX;
+   
+}
+
+.education{
+    margin-top: 20%;
+    
+}
+.edu-div img{
+    
+    margin-bottom: -200px;
+}
+
+.edu-div2 p{
+    color:white;
+    font-size: 40px;
+}
+.edu-div2 p span{
+    color: red;
+    font-size: 20px;
+    letter-spacing: 5px;
+   
+}
+ul{
+    color: red;
+    list-style-type:square;
+    
+    
+}
+.edu-div2{
+    margin-left: 700px;
+    margin-top: -340px;
+    
+}
+
+@media (max-width :750px){
+
+
+.title{
+    margin-left: 150px;
+    padding-top: 100px;
+}
+.skill-img img{
+    display: none;
+}
+
+.skill-container .bars{
+    margin-left: 120px;
+}
+
+.container{
+    position: unset;
+}
+
+
+
+}
+@media(max-width :1000px){
+    .edu-div img{
+        display: none;
+    }
+    .edu-div2 p{
+        font-size: 30px;
+    }
+    .edu-div2 p span{
+        font-size: 10px;
+    }
+    .edu-div2{
+        margin-left: 50px;
+        padding-top: 400px;
+    }
+
+}
+
+
+
